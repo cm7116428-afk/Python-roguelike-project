@@ -15,7 +15,7 @@ def main() -> None:
     g.world[None].components[("MessageLog",list)] = ["Welcome to the Dungeon!"]
 
     #tileset = tcod.tileset.load_tilesheet(
-    #    r"C:\Users\N18998\projects\.venv\data\Alloy_curses_12x12.png", columns=16, rows=16, charmap=tcod.tileset.CHARMAP_CP437
+    #    r"C:\Users\yournamehere\projects\.venv\data\Alloy_curses_12x12.png", columns=16, rows=16, charmap=tcod.tileset.CHARMAP_CP437
     #)
     #tileset += tcod.tileset.procedural_block_elements(shape=tileset.tile_shape)
     g.console=tcod.console.Console(80,51)
